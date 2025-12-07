@@ -2,7 +2,7 @@
 
 Automatic nesting of new entries in Structure sections based on a pre-selected parent. Now if you have a multi-level hierarchy of entry types, new entries will be automatically nested under the landing page.
 
-It's mainly helpful for those that use [This Method] (https://craftcms.com/knowledge-base/entry-type-templates)
+It's mainly helpful for those that use ([This Method](https://craftcms.com/knowledge-base/entry-type-templates))
 
 ## Requirements
 
