@@ -39,12 +39,8 @@ php craft plugin/install entry-level
 
 ## Configuration
 
-1. Go to **Settings → Plugins → Entry Level**
+1. Go to **Settings → Plugins → Entry Level → Settings**
 2. For each Structure section, configure parent-child relationships between Entry Types
-3. Choose a parent selection strategy:
-   - **Most Recently Updated** - Uses the most recently updated entry of the parent type
-   - **First Created** - Uses the oldest entry of the parent type
-   - **Specific Entry** - Lets you select a specific entry as the parent
 
 ## How It Works
 
@@ -75,19 +71,6 @@ The plugin supports unlimited nesting depth. Chain Entry Types to create deep st
 | Sub-Category | Category | Level 3 |
 | Article | Sub-Category | Level 4 |
 
-## Parent Selection Strategies
-
-### Most Recently Updated (default)
-
-Finds the parent entry of the configured type that was most recently updated. Useful when you have multiple potential parents and want new entries to go under the most active one.
-
-### First Created
-
-Finds the oldest entry of the parent type. Useful when you have a single landing page that never changes.
-
-### Specific Entry
-
-Lets you pick an exact entry as the parent. Useful when you have multiple landing pages and want all new entries to go under a specific one.
 
 ## Technical Details
 
@@ -118,5 +101,5 @@ MIT
 
 ## Credits
 
-Developed by [Hypha Media](https://hyphamedia.com)
+Developed by Martin Smith
 
