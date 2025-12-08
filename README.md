@@ -4,9 +4,9 @@
 
 **Automatic nesting of new entries in Structure sections based on Entry Type hierarchies.**
 
-If you have a multi-level hierarchy of entry types, new entries will be automatically nested under the correct parent—no more manually repositioning entries!
+Allows for the automatic placing of new entries to a desired Structure level. This plugin will nest a new entry based on the Entry Type.  No more manually repositioning entries after save!
 
-Perfect for those using the [Entry Type Templates pattern](https://craftcms.com/knowledge-base/entry-type-templates) to create landing pages with children (e.g., blogs with articles).
+Mostly for those using the [Entry Type Templates pattern](https://craftcms.com/knowledge-base/entry-type-templates) to create landing pages with children (e.g., blogs with articles).
 
 ![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-settings.png)
 
