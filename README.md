@@ -11,33 +11,14 @@ It's mainly helpful for those that use ([This Method](https://craftcms.com/knowl
 
 ## Installation
 
-### Via Composer
+Install via Composer:
 
 ```bash
-composer require hyphamedia/entry-level
+composer require martinsmith/entry-level
 php craft plugin/install entry-level
 ```
 
-### Local Development
-
-1. Place the plugin in `plugins/entry-level/`
-
-2. Add to your project's `composer.json`:
-
-```json
-{
-  "repositories": [
-    {"type": "path", "url": "plugins/entry-level"}
-  ]
-}
-```
-
-3. Install:
-
-```bash
-composer require hyphamedia/entry-level:@dev
-php craft plugin/install entry-level
-```
+Or install from the [Craft Plugin Store](https://plugins.craftcms.com/entry-level).
 
 ## Configuration
 
