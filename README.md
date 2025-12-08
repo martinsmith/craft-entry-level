@@ -12,7 +12,7 @@ Perfect for those using the [Entry Type Templates pattern](https://craftcms.com/
 
 ## Requirements
 
-- Craft CMS 5.0.0+
+- Craft CMS 5.3.0+
 - PHP 8.2+
 
 ## Installation

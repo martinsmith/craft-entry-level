@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="#474F5B"/>
+
+  <!-- Top (cyan) -->
+  <rect x="93"  y="218" width="97"  height="96" fill="#23B5D3"/>
+  <rect x="248" y="218" width="633" height="96" fill="#23B5D3"/>
+
+  <!-- Middle (grey) - row 1 -->
+  <rect x="249" y="373" width="97"  height="97" fill="#738195"/>
+  <rect x="405" y="373" width="473" height="97" fill="#738195"/>
+
+  <!-- Middle (grey) - row 2 -->
+  <rect x="249" y="528" width="97"  height="97" fill="#738195"/>
+  <rect x="405" y="528" width="473" height="97" fill="#738195"/>
+
+  <!-- Bottom (chartreuse) -->
+  <rect x="249" y="684" width="97"  height="97" fill="#B8FD5D"/>
+  <rect x="405" y="684" width="473" height="97" fill="#B8FD5D"/>
+
+</svg>
