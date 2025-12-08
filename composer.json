@@ -1,5 +1,5 @@
 {
-  "name": "martinsmith/entry-level",
+  "name": "martinsmith/craft-entry-level",
   "description": "Auto-parent entries in Structure sections based on Entry Type",
   "type": "craft-plugin",
   "version": "1.0.0",
