@@ -1,8 +1,14 @@
+<p align="center"><img src="https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/entry-level-icon.svg" width="120" height="120" alt="Entry Level icon"></p>
+
 # Entry Level for Craft CMS 5
 
-Automatic nesting of new entries in Structure sections based on a pre-selected parent. Now if you have a multi-level hierarchy of entry types, new entries will be automatically nested under the landing page.
+**Automatic nesting of new entries in Structure sections based on Entry Type hierarchies.**
 
-It's mainly helpful for those that use ([This Method](https://craftcms.com/knowledge-base/entry-type-templates)) to create landing pages with children (blogs with articles).
+If you have a multi-level hierarchy of entry types, new entries will be automatically nested under the correct parent—no more manually repositioning entries!
+
+Perfect for those using the [Entry Type Templates pattern](https://craftcms.com/knowledge-base/entry-type-templates) to create landing pages with children (e.g., blogs with articles).
+
+![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-settings.png)
 
 ## Requirements
 
@@ -78,11 +84,20 @@ Try changing the Parent Selection strategy:
 - Use **First Created** for stable, predictable behavior
 - Use **Most Recently Updated** for dynamic selection
 
+## Support
+
+- 📖 [Documentation](https://github.com/martinsmith/craft-entry-level#readme)
+- 🐛 [Report Issues](https://github.com/martinsmith/craft-entry-level/issues)
+- 💬 [Discussions](https://github.com/martinsmith/craft-entry-level/discussions)
+
 ## License
 
-MIT
+This plugin is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-Developed by Martin Smith
+Developed by [Martin Smith](https://github.com/martinsmith).
 
+---
+
+<p align="center">Made with ❤️ for the Craft CMS community</p>

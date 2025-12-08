@@ -15,9 +15,16 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Martin Smith"
+      "name": "Martin Smith",
+      "homepage": "https://github.com/martinsmith"
     }
   ],
+  "support": {
+    "email": "support@hyphamedia.com",
+    "issues": "https://github.com/martinsmith/craft-entry-level/issues",
+    "source": "https://github.com/martinsmith/craft-entry-level",
+    "docs": "https://github.com/martinsmith/craft-entry-level#readme"
+  },
   "require": {
     "php": "^8.2",
     "craftcms/cms": "^5.0.0"
@@ -31,7 +38,9 @@
     "name": "Entry Level",
     "handle": "entry-level",
     "hasCpSettings": true,
-    "class": "martinsmith\\entrylevel\\Plugin"
+    "class": "martinsmith\\entrylevel\\Plugin",
+    "documentationUrl": "https://github.com/martinsmith/craft-entry-level#readme",
+    "changelogUrl": "https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/CHANGELOG.md"
   }
 }
 
