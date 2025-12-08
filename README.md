@@ -10,9 +10,9 @@ Perfect for those using the [Entry Type Templates pattern](https://craftcms.com/
 
 ![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-settings.png)
 
-![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-sscreen1.png)
+![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-screen1.png)
 
-![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-sscreen2.png)
+![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-screen2.png)
 
 
 ## Requirements
@@ -26,6 +26,9 @@ Install via Composer:
 
 ```bash
 composer require "martinsmith/craft-entry-level" -w && php craft plugin/install entry-level
+```
+
+```bash
 ddev composer require "martinsmith/craft-entry-level" -w && ddev craft plugin/install entry-level
 ```
 
