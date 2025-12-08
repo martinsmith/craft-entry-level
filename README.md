@@ -10,6 +10,11 @@ Perfect for those using the [Entry Type Templates pattern](https://craftcms.com/
 
 ![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-settings.png)
 
+![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-sscreen1.png)
+
+![Entry Level Settings Screenshot](https://raw.githubusercontent.com/martinsmith/craft-entry-level/main/resources/screenshot-sscreen2.png)
+
+
 ## Requirements
 
 - Craft CMS 5.3.0+
@@ -20,11 +25,11 @@ Perfect for those using the [Entry Type Templates pattern](https://craftcms.com/
 Install via Composer:
 
 ```bash
-composer require martinsmith/entry-level
-php craft plugin/install entry-level
+composer require "martinsmith/craft-entry-level" -w && php craft plugin/install entry-level
+ddev composer require "martinsmith/craft-entry-level" -w && ddev craft plugin/install entry-level
 ```
 
-Or install from the [Craft Plugin Store](https://plugins.craftcms.com/entry-level).
+Or install from the [Craft Plugin Store](https://plugins.craftcms.com/craft-entry-level).
 
 ## Configuration
 
@@ -88,7 +93,6 @@ Try changing the Parent Selection strategy:
 
 - 📖 [Documentation](https://github.com/martinsmith/craft-entry-level#readme)
 - 🐛 [Report Issues](https://github.com/martinsmith/craft-entry-level/issues)
-- 💬 [Discussions](https://github.com/martinsmith/craft-entry-level/discussions)
 
 ## License
 
