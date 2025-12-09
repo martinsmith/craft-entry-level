@@ -52,7 +52,7 @@ Entry Types:
 
 With this configuration:
 - Creating a **News Landing** → stays at root level (no parent configured)
-- Creating a **News Article** → automatically placed under **News Landing**
+- Creating a **News Article** → automatically placed under **News Landing** (Level 2)
 
 ### Multi-Level Hierarchies
 
