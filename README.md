@@ -64,14 +64,6 @@ The plugin supports unlimited nesting depth. Chain Entry Types to create deep st
 | Article | (Landing Page) | Level 2 |
 
 
-## Technical Details
-
-- Uses `Entry::EVENT_AFTER_PROPAGATE` to ensure the correct Entry Type is detected
-- Moves entries using Craft's `StructuresService::append()` for proper hierarchy management
-- Only affects new entries at level 1 (root level)
-- Respects manually positioned entries (won't override existing parents)
-- Settings are stored in Project Config for environment sync
-
 ## Troubleshooting
 
 ### Entry not being auto-parented
@@ -79,13 +71,6 @@ The plugin supports unlimited nesting depth. Chain Entry Types to create deep st
 1. Check that the parent Entry Type has at least one entry created
 2. Verify the configuration in Settings → Plugins → Entry Level
 3. Ensure you're creating a new entry (editing existing entries won't trigger auto-parenting)
-
-### Wrong parent being selected
-
-Try changing the Parent Selection strategy:
-- Use **Specific Entry** if you need precise control
-- Use **First Created** for stable, predictable behavior
-- Use **Most Recently Updated** for dynamic selection
 
 ## Support
 
