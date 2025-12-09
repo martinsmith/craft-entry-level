@@ -33,8 +33,6 @@ composer require "martinsmith/craft-entry-level" -w && php craft plugin/install 
 ddev composer require "martinsmith/craft-entry-level" -w && ddev craft plugin/install entry-level
 ```
 
-Or install from the [Craft Plugin Store](https://plugins.craftcms.com/craft-entry-level).
-
 ## Configuration
 
 1. Go to **Settings → Plugins → Entry Level → Settings**
@@ -49,14 +47,12 @@ When you create a new entry of a configured "child" Entry Type, the plugin autom
 ```
 Entry Types:
 ├── News Landing (root level)
-├── News Category (parent: News Landing)
-└── News Article (parent: News Category)
+└──- News Article (parent: News Landing)
 ```
 
 With this configuration:
-- Creating a **News Article** → automatically placed under a **News Category**
-- Creating a **News Category** → automatically placed under **News Landing**
 - Creating a **News Landing** → stays at root level (no parent configured)
+- Creating a **News Article** → automatically placed under **News Landing**
 
 ### Multi-Level Hierarchies
 
@@ -65,9 +61,7 @@ The plugin supports unlimited nesting depth. Chain Entry Types to create deep st
 | Entry Type | Parent Type | Result |
 |------------|-------------|--------|
 | Landing Page | (none) | Root level |
-| Category | Landing Page | Level 2 |
-| Sub-Category | Category | Level 3 |
-| Article | Sub-Category | Level 4 |
+| Article | (Landing Page) | Level 2 |
 
 
 ## Technical Details
