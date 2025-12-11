@@ -64,7 +64,17 @@ class Plugin extends BasePlugin
         }
 
         $this->processedEntries[$entryKey] = true;
-        Craft::$app->getStructures()->append($section->structureId, $entry, $parent);
+
+        // Use section's default placement setting to determine position within level
+        Craft::info("Entry Level: defaultPlacement = '{$section->defaultPlacement}', BEGINNING constant = '" . Section::DEFAULT_PLACEMENT_BEGINNING . "'", __METHOD__);
+
+        if ($section->defaultPlacement === Section::DEFAULT_PLACEMENT_BEGINNING) {
+            Craft::info("Entry Level: Using PREPEND for entry {$entry->id}", __METHOD__);
+            Craft::$app->getStructures()->prepend($section->structureId, $entry, $parent);
+        } else {
+            Craft::info("Entry Level: Using APPEND for entry {$entry->id}", __METHOD__);
+            Craft::$app->getStructures()->append($section->structureId, $entry, $parent);
+        }
     }
 
     private function findParentEntry(Section $section, array $config): ?Entry
