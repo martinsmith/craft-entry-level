@@ -65,7 +65,6 @@ class Plugin extends BasePlugin
 
         $this->processedEntries[$entryKey] = true;
 
-        // Use section's default placement setting to determine position within level
         Craft::info("Entry Level: defaultPlacement = '{$section->defaultPlacement}', BEGINNING constant = '" . Section::DEFAULT_PLACEMENT_BEGINNING . "'", __METHOD__);
 
         if ($section->defaultPlacement === Section::DEFAULT_PLACEMENT_BEGINNING) {
